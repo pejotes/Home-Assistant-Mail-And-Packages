@@ -198,6 +198,16 @@ SENSOR_DATA = {
     },
     "auspost_packages": {},
     "auspost_tracking": {"pattern": ["\\d{7,10,12}|[A-Za-z]{2}[0-9]{9}AU "]},
+    "dpd_delivered": {
+        "email": ["powiadomienia@allegromail.pl"],
+        "subject": ["została doręczona"],
+    },
+    "dpd_delivering": {
+        "email": ["powiadomienia@allegromail.pl"],
+        "subject": ["Bezpieczne doręczenie Twojej paczki"],
+    },
+    "dpd_packages": {},
+    "dpd_tracking": {"pattern": ["[0-9]{13}[A-Za-z]{1}"]},
 }
 
 # Sensor definitions
@@ -304,6 +314,21 @@ SENSOR_TYPES = {
     ],
     "auspost_packages": [
         "Mail AusPost Packages",
+        "package(s)",
+        "mdi:package-variant-closed",
+    ],
+        "dpd_delivered": [
+        "DPD package Delivered",
+        "package(s)",
+        "mdi:package-variant",
+    ],
+    "dpd_delivering": [
+        "DPD package Delivering",
+        "package(s)",
+        "mdi:truck-delivery",
+    ],
+    "dpd_packages": [
+        "DPD package Packages",
         "package(s)",
         "mdi:package-variant-closed",
     ],  
