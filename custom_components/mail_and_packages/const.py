@@ -199,11 +199,11 @@ SENSOR_DATA = {
     "auspost_packages": {},
     "auspost_tracking": {"pattern": ["\\d{7,10,12}|[A-Za-z]{2}[0-9]{9}AU "]},
     "dpd_delivered": {
-        "email": ["powiadomienia@allegromail.pl"],
+        "email": ["powiadomienia@allegromail.pl", "KurierDPD2@dpd.com.pl"],
         "subject": ["została doręczona"],
     },
     "dpd_delivering": {
-        "email": ["powiadomienia@allegromail.pl"],
+        "email": ["powiadomienia@allegromail.pl", "KurierDPD2@dpd.com.pl"],
         "subject": ["Bezpieczne doręczenie Twojej paczki"],
     },
     "dpd_packages": {},
