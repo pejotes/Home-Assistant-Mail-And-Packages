@@ -373,4 +373,4 @@ SENSOR_UNIT = 1
 SENSOR_ICON = 2
 
 # For sensors with delivering and delivered statuses
-SHIPPERS = ["capost", "dhl", "fedex", "ups", "usps", "hermes", "royal", "auspost"]
+SHIPPERS = ["capost", "dhl", "fedex", "ups", "usps", "hermes", "royal", "auspost", "dpd"]
